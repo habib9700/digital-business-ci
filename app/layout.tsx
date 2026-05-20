@@ -1,15 +1,10 @@
-export const metadata = {
-  title: "Digital Business CI",
-  description: "Vente de produits digitaux",
-};
-
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="fr">
+    <html>
       <body>{children}</body>
     </html>
   );
